@@ -82,3 +82,14 @@
 #register{
     left: 450px;
 }
+h1{
+    text-align: center;
+    color: #0068D8;
+    
+}
+.cent {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+  }

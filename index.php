@@ -15,10 +15,10 @@
                 <button type="button" class="btnn" onclick="login()">Login</button>
                 <button type="button" class="btnn" onclick="register()">Register</button>
             </div>
-            <form action="" id="login" class="input-grp">
-                <input type="text" class="input-field" placeholder="User Id" required>
-                <input type="text" class="input-field" placeholder="Password" required>
-                <button type="submit" class="submit-btn">Login</button>
+            <form method="POST" action="login.php" id="login" class="input-grp">
+                <input type="text" class="input-field" placeholder="User Id" required name="username" />
+                <input type="text" class="input-field" placeholder="Password" required name="password" />
+                <button type="submit" name="submit" class="submit-btn">Login</button>
             </form>
             <form action="" id="register" class="input-grp">
                 <input type="text" class="input-field" placeholder="User Id" required>
